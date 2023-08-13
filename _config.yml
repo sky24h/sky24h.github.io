@@ -283,7 +283,7 @@ scholar:
   source: /_bibliography/
   bibliography_journal: papers_journal.bib
   bibliography_conference: papers_conference.bib
-  # bibliography_domestic: papers_domestic.bib
+  bibliography_domestic: papers_domestic.bib
   # bibliography_others: papers_others.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter

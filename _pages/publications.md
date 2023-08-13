@@ -15,7 +15,7 @@ nav_order: 1
 <h4>Conference</h4>
 {% bibliography -f {{ site.scholar.bibliography_conference }} %}
 
-<!-- <h4>Domestic</h4>
-{% bibliography -f {{ site.scholar.bibliography_domestic }} %} -->
+<h4>Domestic</h4>
+{% bibliography -f {{ site.scholar.bibliography_domestic }} %}
 
 </div>
