@@ -281,7 +281,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography_jounal: papers_journal.bib
+  bibliography_journal: papers_journal.bib
   bibliography_conference: papers_conference.bib
   # bibliography_domestic: papers_domestic.bib
   # bibliography_others: papers_others.bib
