@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p>3rd year PhD candidate</p>
     <p>Computer Vision Lab</p>
     <p>University of Tsukuba</p>
     <p>Tsukuba, Japan</p>
