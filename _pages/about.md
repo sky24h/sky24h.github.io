@@ -21,8 +21,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently a third-year Ph.D. candidate under the supervision of Assoc. Prof. [Satoshi Iizuka](http://iizuka.cs.tsukuba.ac.jp/index_eng.html) and Prof. [Kazuhiro Fukui](http://www.cvlab.cs.tsukuba.ac.jp/~kfukui/english/indexE.html) at the University of Tsukuba.
+My research interests include image editing and generation, computer graphics, and computer vision.
