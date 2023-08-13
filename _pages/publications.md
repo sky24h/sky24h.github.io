@@ -10,7 +10,7 @@ nav_order: 1
 <div class="publications">
 
 <h4>Journal</h4>
-{% bibliography -f {{ site.scholar.bibliography_jounal }} %}
+{% bibliography -f {{ site.scholar.bibliography_journal }} %}
 
 <h4>Conference</h4>
 {% bibliography -f {{ site.scholar.bibliography_conference }} %}
