@@ -8,8 +8,14 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-<h4>Journal1</h4>
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+<h4>Journal</h4>
+{% bibliography -f {{ site.scholar.bibliography_jounal }} %}
+
+<h4>Conference</h4>
+{% bibliography -f {{ site.scholar.bibliography_conference }} %}
+
+<!-- <h4>Domestic</h4>
+{% bibliography -f {{ site.scholar.bibliography_domestic }} %} -->
 
 </div>
