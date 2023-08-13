@@ -22,4 +22,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am currently a third-year Ph.D. candidate under the supervision of Assoc. Prof. [Satoshi Iizuka](http://iizuka.cs.tsukuba.ac.jp/index_eng.html) and Prof. [Kazuhiro Fukui](http://www.cvlab.cs.tsukuba.ac.jp/~kfukui/english/indexE.html) at the University of Tsukuba.
+
 My research interests include image editing and generation, computer graphics, and computer vision.
+
