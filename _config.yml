@@ -277,7 +277,7 @@ scholar:
   last_name: [Huang]
   first_name: [Yuantian]
 
-  style: chicago
+  style: apa
   locale: en
 
   source: /_bibliography/
