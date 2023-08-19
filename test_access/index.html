@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script type="text/javascript" src="../../../js/analytics.js">
+  </script>
+  <title>Diffusion-based Semantic Image Synthesis from Sparse Layouts</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" media="screen">
+</head>
+
+<body>
+  <div class="content">
+    <h2>Diffusion-based Semantic Image Synthesis from Sparse Layouts</h2>
+    <p id="authors">
+      <a href="https://sky24h.github.io/">Yuantian Huang</a>&emsp;
+      <a href="http://iizuka.cs.tsukuba.ac.jp/index_eng.html">Satoshi Iizuka</a>&emsp;
+      <a href="http://www.cvlab.cs.tsukuba.ac.jp/~kfukui/english/indexE.html">Kazuhiro Fukui</a><br>
+      <br>
+      CGI 2023
+    </p>
+
+    <a><img src="./data/CGI2023_teaser.jpg" alt="teaser image"></a>
+  </div>
+  <div class="content">
+    <h3>Abstract:</h3>
+    <p>We present an efficient framework that utilizes diffusion models to generate landscape images from sparse
+      semantic layouts. Previous approaches use dense semantic label maps to generate images, where the
+      quality of the results is highly dependent on the accuracy of the input semantic layouts. However, it is not
+      trivial to create detailed and accurate semantic layouts in practice. To address this challenge, we carefully
+      design a random masking process that effectively simulates real user input during the model training phase, making
+      it more practical for real-world applications. Our framework leverages the Semantic Diffusion Model (SDM) as a
+      generator to create full landscape images from sparse label maps, which are created randomly during the random
+      masking process. Missing semantic information is complemented based on the learned image structure. Furthermore,
+      we achieve comparable inference speed to GAN-based models through a model distillation process while preserving
+      the generation quality. After training with the well-designed random masking process, our proposed framework is
+      able to generate high-quality landscape images with sparse and intuitive inputs, which is useful for practical
+      applications. Experiments show that our proposed method outperforms existing approaches both quantitatively and
+      qualitatively.
+    </p>
+
+    <p id="presentation"><video controls src="./data/CGI2023_DemoVideo.mp4" width="800"></video></p>
+    <br>
+    <!-- <a class="button" href="https://ieeexplore.ieee.org/abstract/document/10095745">Paper (IEEE)</a> -->
+    <a class="button" href="./data/CGI2023_Diffusion-based_Semantic_Image_Synthesis_from_Sparse_LayoutsCameraReady.pdf">PDF</a>
+    <!-- <a class="button" href="./data/CGI2023_Diffusion-based_Semantic_Image_Synthesis_from_Sparse_LayoutsCameraReady.pdf">Slide</a> -->
+    <br>
+    <br>
+    Code will be released after the publication.
+    <!-- <a class="button" disabled>Demo</a>
+    <a class="button" disabled>Code</a> -->
+    <br><br>
+  </div>
+
+  <!-- <div class="content">
+    <h3>Model Architecture:</h3>
+    <p>The encoders embed inputs together and feed them into the generator, while the input audio Mel spectrogram, head
+      pose, emotion, and eye blink are extracted from target frames during the training stage. A set of synchronization
+      losses are then calculated by a pre-trained multi-attribute discriminator between generated frames and input
+      attributes to enforce attribute-visual synchronization.<br>
+      <br>
+    </p><img src="./data/network.jpg" border="0"><br><br>
+  </div> -->
+
+  <!-- <div class="content">
+    <h3>Results:</h3>
+    <p id="result1"><video controls src="./data/result1.mp4" width="750"></video></p><br>
+  </div> -->
+
+  <!-- 
+  <div class="content">
+    <h3>Comparisons:</h3>
+    <p>
+      Comparison with combinations of existing restoration and colorization approaches, i.e., the approach of [Zhang et
+      al. 2017b] and [Yu et al. 2018] for restoration, and [Zhang et al. 2017a] and [Vondrick et al. 2018] for
+      colorization on real world vintage films and the videos from Youtube-8M dataset. We use the same reference images
+      in the above remastering results for the vintage films. For the videos from Youtube-8M dataset, we randomly sample
+      a subset of 300 frames for videos from Youtube-8M dataset, and apply both example-based and algorithm-based
+      deterioration effects. For the reference color images, we provide every 60th frame starting from the first frame
+      as a reference image. In the following results, each video is an input video, [Zhang et al. 2017b] and [Zhang et
+      al. 2017a], [Yu et al. 2018] and [Zhang et al. 2017a], [Zhang et al. 2017b] and [Vondrick et al. 2018], [Yu et al.
+      2018] and [Vondrick et al. 2018], and ours, in order from left to right, top to bottom.<br>
+    <ul>
+      <li>Richard Zhang, Jun-Yan Zhu, Phillip Isola, Xinyang Geng, Angela S Lin, Tianhe Yu, and Alexei A Efros. 2017a.
+        Real-Time User-Guided Image Colorization with Learned Deep Priors. ACM Transactions on Graphics (Proceedings of
+        SIGGRAPH) 9, 4 (2017).</li>
+      <li>Carl Vondrick, Abhinav Shrivastava, Alireza Fathi, Sergio Guadarrama, and Kevin Murphy. 2018. Tracking emerges
+        by colorizing videos. In European Conference on Computer Vision (ECCV).</li>
+      <li>Kai Zhang, Wangmeng Zuo, Yunjin Chen, Deyu Meng, and Lei Zhang. 2017b. Beyond a gaussian denoiser: Residual
+        learning of deep cnn for image denoising. IEEE Transactions on Image Processing 26, 7 (2017), 3142–3155.</li>
+      <li>Yuchen Fan, Jiahui Yu, and Thomas S Huang. 2018. Wide-activated Deep Residual Networks based Restoration for
+        BPG-compressed Images. In IEEE Conference on Computer Vision and Pattern Recognition Workshops.</li>
+    </ul>
+    <br>
+    </p>
+    <h4>Vintage Films:</h4>
+    <table border="0" align="center" cellpadding="10">
+
+      <tr>
+        <th>
+          <div class="container3">
+            <div>Input Video</div>
+            <div>[Zhang et al. 2017b] and [Zhang et al. 2017a]</div>
+            <div>[Yu et al. 2018] and [Zhang et al. 2017a]</div>
+          </div>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <div class="container3">
+            <div>[Zhang et al. 2017b] and [Vondrick et al. 2018]</div>
+            <div>[Yu et al. 2018] and [Vondrick et al. 2018]</div>
+            <div>Ours</div>
+          </div>
+        </th>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/a-bomb_blast_effects_512kb_comp.mp4"
+            width="750"></video><br></td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/FreedomH1956_512kb_comp.mp4" width="750"></video><br>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/right_to_health_1_512kb_comp.mp4"
+            width="750"></video><br></td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/threestoogescolorcraziness_512kb_comp.mp4"
+            width="750"></video><br></td>
+      </tr>
+    </table>
+    <h4>Synthetic Data:</h4>
+    <table border="0" align="center" cellpadding="10">
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/-0AEk0AapjM_comp.mp4" width="750"></video><br></td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/-ALl_YBxPF0_comp.mp4" width="750"></video><br></td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/-0J_GJg_nXc_comp.mp4" width="750"></video><br></td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/-6VFYPRHPis_comp.mp4" width="750"></video><br></td>
+      </tr>
+      <tr valign="top">
+        <td><video controls src="./data/comparisons/remastering/-3tON7YaSl8_comp.mp4" width="750"></video><br></td>
+      </tr>
+    </table>
+    <p>Additional results are <a href="../extra.html">here</a>.</p>
+  </div> -->
+
+  <div class="content">
+    <h3>Publication:</h3>
+    @inproceedings{Huang2023Sparse,<br>
+      author={Huang, Yuantian and Iizuka, Satoshi and Fukui, Kazuhiro},<br>
+      title={Diffusion-based Semantic Image Synthesis from Sparse Layouts},<br>
+      booktitle={Computer Graphics International Conference},<br>
+      year={2023},<br>
+      organization={Springer},<br>
+    }</code>
+    <!-- This work was partially supported by JST -->
+  </div>
+</body>
+
+</html>
