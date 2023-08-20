@@ -85,25 +85,25 @@
     {
       "name": "Programming Languages",
       "keywords": [
-        "Python: ★★★★★",
-        "C++: ★★★☆☆",
+        "Python:     ★★★★★",
+        "C++:        ★★★☆☆",
         "JavaScript: ★★★☆☆",
-        "SQL: ★★★☆☆"
+        "SQL:        ★★★☆☆"
       ]
     },
     {
       "name": "Deep Learning Frameworks",
       "keywords": [
-        "PyTorch: ★★★★★",
+        "PyTorch:    ★★★★★",
         "TensorFlow: ★★★☆☆"
       ]
     },
     {
       "name": "Tools & Platforms",
       "keywords": [
-        "Linux: ★★★★★",
-        "Docker: ★★★★★",
-        "Cloud Computing(AWS, GCP): ★★★★☆"
+        "Linux:      ★★★★★",
+        "Docker:     ★★★★☆",
+        "GCP:        ★★★★☆"
       ]
     }
   ],
