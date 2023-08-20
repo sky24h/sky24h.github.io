@@ -1,9 +1,8 @@
 {
   "basics": {
     "name": "Yuantian Huang",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "age": 26,
+    "url": "https://sky24h.github.io/",
     "location": {
       "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
       "postalCode": "305-8577",
@@ -11,20 +10,24 @@
       "countryCode": "JP"
     }
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
-  ],
-  "volunteer": [],
+  // "work": [
+  //   {
+  //     "name": "Crystal Method",
+  //     "position": "AI Engineer (Long-term Internship)",
+  //     "url": "https://crystal-method.com/",
+  //     "startDate": "2020-09-01",
+  //     "endDate": "now",
+  //     "summary": "",
+  //     "highlights": [
+  //       "Talking head video generation from a single image and corresponding audio",
+  //       "Human motion generation from a single image",
+  //       "AI Avatar generation from a single image or video",
+  //       "Accelerating the training and inference of pytorch models on GPU and CPU",
+  //       "Architecture design and implementation of a human-interactive AI system (Talking with AI Avatar in Zoom)",
+  //       "Abnormal detection of industrial products"
+  //     ]
+  //   }
+  // ],
   "education": [
     {
       "institution": "University of Tsukuba, Japan",
@@ -45,6 +48,15 @@
       "score": ""
     },
     {
+      "institution": "University of Tsukuba, Japan",
+      "url": "https://www.tsukuba.ac.jp/",
+      "area": "Computer Science",
+      "studyType": "Research Student",
+      "startDate": "2018-04-01",
+      "endDate": "2019-03-30",
+      "score": ""
+    },
+    {
       "institution": "Guangzhou University, China",
       "url": "https://www.gzhu.edu.cn/",
       "area": "Electronic Information Engineering",
@@ -57,9 +69,10 @@
   "awards": [
     {
       "title": "SPRING: Support for Pioneering Research Initiated by the Next Generation",
+      "url": "https://www.tsukuba.ac.jp/en/academics/jst-spring-program/",
       "date": "2021 - 2024",
       "awarder": "Japan Science and Technology Agency (JST)",
-      "summary": "https://www.tsukuba.ac.jp/en/academics/jst-spring-program/"
+      "summary": "A program to provide financial support (living & research allowance) for selected Ph.D students."
     }
   ],
   "certificates": [],
@@ -79,7 +92,27 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Video Games",
+      "keywords": [
+        "Simulation",
+        "Strategy",
+        "RPG"
+      ]
+    },
+    {
+      "name": "History"
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Roller Skating",
+        "Hiking",
+        "Running"
+      ]
+    }
+  ],
   "references": [],
   "projects": []
 }
