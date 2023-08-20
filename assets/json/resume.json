@@ -1,26 +1,15 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
+    "name": "Yuantian Huang",
     "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
+      "postalCode": "305-8577",
+      "city": "Tsukuba",
+      "countryCode": "JP"
+    }
   },
   "work": [
     {
@@ -38,24 +27,39 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Tsukuba, Japan",
+      "url": "https://www.tsukuba.ac.jp/",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "startDate": "2021-04-01",
+      "endDate": "now",
+      "score": ""
+    },
+    {
+      "institution": "University of Tsukuba, Japan",
+      "url": "https://www.tsukuba.ac.jp/",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2019-04-01",
+      "endDate": "2021-03-30",
+      "score": ""
+    },
+    {
+      "institution": "Guangzhou University, China",
+      "url": "https://www.gzhu.edu.cn/",
+      "area": "Electronic Information Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2017-06-30",
+      "score": ""
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "SPRING: Support for Pioneering Research Initiated by the Next Generation",
+      "date": "2021 - 2024",
+      "awarder": "Japan Science and Technology Agency (JST)",
+      "summary": "https://www.tsukuba.ac.jp/en/academics/jst-spring-program/"
     }
   ],
   "certificates": [],
@@ -63,8 +67,12 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Fluent"
     },
     {
       "language": "English",
