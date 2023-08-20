@@ -10,24 +10,24 @@
       "countryCode": "JP"
     }
   },
-  // "work": [
-  //   {
-  //     "name": "Crystal Method",
-  //     "position": "AI Engineer (Long-term Internship)",
-  //     "url": "https://crystal-method.com/",
-  //     "startDate": "2020-09-01",
-  //     "endDate": "now",
-  //     "summary": "",
-  //     "highlights": [
-  //       "Talking head video generation from a single image and corresponding audio",
-  //       "Human motion generation from a single image",
-  //       "AI Avatar generation from a single image or video",
-  //       "Accelerating the training and inference of pytorch models on GPU and CPU",
-  //       "Architecture design and implementation of a human-interactive AI system (Talking with AI Avatar in Zoom)",
-  //       "Abnormal detection of industrial products"
-  //     ]
-  //   }
-  // ],
+  "work": [
+    {
+      "name": "Crystal Method",
+      "position": "AI Engineer (Long-term Internship)",
+      "url": "https://crystal-method.com/",
+      "startDate": "2020-09-01",
+      "endDate": "now",
+      "summary": "",
+      "highlights": [
+        "Talking head video generation from a single image and corresponding audio",
+        "Human motion generation from a single image",
+        "AI Avatar generation from a single image or video",
+        "Accelerating the training and inference of pytorch models on GPU and CPU",
+        "Architecture design and implementation of a human-interactive AI system (Talking with AI Avatar in Zoom)",
+        "Abnormal detection of industrial products"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "University of Tsukuba, Japan",
@@ -75,9 +75,38 @@
       "summary": "A program to provide financial support (living & research allowance) for selected Ph.D students."
     }
   ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
+  "publications": [
+    {
+      "name": "Click to see the full list of publications",
+      "url": "https://sky24h.github.io/publications/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python: ★★★★★",
+        "C++: ★★★☆☆",
+        "JavaScript: ★★★☆☆",
+        "SQL: ★★★☆☆"
+      ]
+    },
+    {
+      "name": "Deep Learning Frameworks",
+      "keywords": [
+        "PyTorch: ★★★★★",
+        "TensorFlow: ★★★☆☆"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": [
+        "Linux: ★★★★★",
+        "Docker: ★★★★★",
+        "Cloud Computing(AWS, GCP): ★★★★☆"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "Chinese",
@@ -105,11 +134,18 @@
       "name": "History"
     },
     {
+      "name": "Coding",
+        "keywords": [
+        "Implementing new ideas",
+        "Automation of daily work",
+        "Implementing SOTA models"
+      ]
+    },
+    {
       "name": "Sports",
       "keywords": [
         "Roller Skating",
-        "Hiking",
-        "Running"
+        "Hiking"
       ]
     }
   ],
