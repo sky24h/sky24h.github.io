@@ -420,9 +420,9 @@ jsonresume:
   - education
   - awards
   - skills
-  - publications
-  - languages
   - interests
+  # - languages
+  # - publications
   # - projects
   # - volunteer
   # - certificates
