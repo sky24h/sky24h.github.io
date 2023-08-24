@@ -83,6 +83,14 @@
   ],
   "skills": [
     {
+      "name": "Languages",
+      "keywords": [
+        "Chinese:    Native speaker",
+        "Japanese:   Fluent",
+        "English:    Fluent"
+      ]
+    },
+    {
       "name": "Programming Languages",
       "keywords": [
         "Python:     ★★★★★",
@@ -105,20 +113,6 @@
         "Docker:     ★★★★☆",
         "GCP:        ★★★★☆"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
     }
   ],
   "interests": [
