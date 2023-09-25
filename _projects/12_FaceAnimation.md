@@ -6,7 +6,7 @@ img: assets/img/project_preview/example_result_FaceAnimation.gif
 importance: 2
 category: fun
 related_publications:
+redirect: https://github.com/sky24h/Face_Animation_Real_Time
 ---
 
-<!-- embedding a url -->
-<iframe src="https://github.com/sky24h/Face_Animation_Real_Time" frameborder="0" allowfullscreen></iframe>
+If you are not redirected, please click [here](https://github.com/sky24h/Face_Animation_Real_Time).

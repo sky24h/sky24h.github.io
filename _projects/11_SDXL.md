@@ -6,7 +6,7 @@ img: assets/img/project_preview/example_result_SDXL.jpg
 importance: 2
 category: fun
 related_publications:
+redirect: https://github.com/sky24h/SDXL_Serverless_Runpod
 ---
 
-<!-- embedding a url -->
-<iframe src="https://github.com/sky24h/SDXL_Serverless_Runpod" frameborder="0" allowfullscreen></iframe>
+If you are not redirected, please click [here](https://github.com/sky24h/SDXL_Serverless_Runpod).

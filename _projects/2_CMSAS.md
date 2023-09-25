@@ -6,7 +6,7 @@ img: assets/img/publication_preview/CVM2023_teaser.jpg
 importance: 2
 category: research
 related_publications: Huang2023CMSAS
+redirect: https://huggingface.co/spaces/sky24h/Controllable_Multi-domain_Semantic_Artwork_Synthesis
 ---
 
-<!-- embedding a url -->
-<iframe src="https://huggingface.co/spaces/sky24h/Controllable_Multi-domain_Semantic_Artwork_Synthesis" frameborder="0" allowfullscreen></iframe>
+If you are not redirected, please click [here]("https://huggingface.co/spaces/sky24h/Controllable_Multi-domain_Semantic_Artwork_Synthesis).

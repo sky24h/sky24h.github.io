@@ -6,7 +6,7 @@ img: assets/img/publication_preview/CGI2023_teaser.jpg
 importance: 3
 category: research
 related_publications: Huang2023Sparse
+redirect: https://github.com/sky24h/SIS_from_Sparse_Layouts
 ---
 
-<!-- embedding a url -->
-<iframe src="https://huggingface.co/spaces/sky24h/Controllable_Multi-domain_Semantic_Artwork_Synthesis" frameborder="0" allowfullscreen></iframe>
+If you are not redirected, please click [here]("https://github.com/sky24h/SIS_from_Sparse_Layouts).
