@@ -2,7 +2,7 @@
 layout: page
 title: Talking Head Video Editing
 description: Free-View Expressive Talking Head Video Editing
-img: assets/img/publication_preview/ICASSP2023_teaser.jpg
+img: assets/img/publication_preview/ICASSP2023_teaser.gif
 importance: 1
 category: research
 related_publications: Huang2023FETE

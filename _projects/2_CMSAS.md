@@ -2,7 +2,7 @@
 layout: page
 title: Layout to Artwork
 description: Controllable Multi-domain Semantic Artwork Synthesis
-img: assets/img/publication_preview/CVM2023_teaser.jpg
+img: assets/img/publication_preview/CVM2023_teaser.gif
 importance: 2
 category: research
 related_publications: Huang2023CMSAS

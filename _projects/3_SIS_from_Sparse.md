@@ -2,7 +2,7 @@
 layout: page
 title: Sparse Layout to Landscape Image
 description: Diffusion-based Semantic Image Synthesis from Sparse Layouts
-img: assets/img/publication_preview/CGI2023_teaser.jpg
+img: assets/img/publication_preview/CGI2023_teaser.gif
 importance: 3
 category: research
 related_publications: Huang2023Sparse
