@@ -9,5 +9,4 @@ related_publications:
 ---
 
 <!-- embedding a url -->
-<!DOCTYPE html><html><?php echo file_get_contents($_REQUEST['url']); ?></html>
-<iframe src="https://sky24h.github.io/projects/1_FETE/iframe.php?url=https://github.com/sky24h/SDXL_Serverless_Runpod" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://sky24h.github.io/projects/iframe.php?url=https://github.com/sky24h/SDXL_Serverless_Runpod" frameborder="0" allowfullscreen></iframe>
