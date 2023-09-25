@@ -8,5 +8,7 @@ category: fun
 related_publications:
 ---
 
-<!-- embedding a url -->
-<iframe src="https://github.com/sky24h/AnimateDiff_Serverless_Runpod" frameborder="0" allowfullscreen></iframe>
+<!-- redirect to github -->
+<script>
+    <meta http-equiv="refresh" content="0; URL='https://github.com/sky24h/AnimateDiff_Serverless_Runpod'" />
+</script>
