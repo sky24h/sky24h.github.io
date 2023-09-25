@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sparse Layout to Landscape Image
+title: Sparse Layout to Landscape
 description: Diffusion-based Semantic Image Synthesis from Sparse Layouts
 img: assets/img/publication_preview/CGI2023_teaser.gif
 importance: 3
