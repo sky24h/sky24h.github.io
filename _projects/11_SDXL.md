@@ -9,4 +9,4 @@ related_publications:
 ---
 
 <!-- embedding a url -->
-<iframe src="https://sky24h.github.io/projects/iframe.php?url=https://github.com/sky24h/SDXL_Serverless_Runpod" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://github.com/sky24h/SDXL_Serverless_Runpod" frameborder="0" allowfullscreen></iframe>

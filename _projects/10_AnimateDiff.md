@@ -6,9 +6,7 @@ img: assets/img/project_preview/example_result_AnimateDiff.gif
 importance: 1
 category: fun
 related_publications:
+redirect: https://github.com/sky24h/AnimateDiff_Serverless_Runpod
 ---
 
-<!-- redirect to github -->
-<script>
-    <meta http-equiv="refresh" content="0; URL='https://github.com/sky24h/AnimateDiff_Serverless_Runpod'" />
-</script>
+If you are not redirected, please click [here](https://github.com/sky24h/AnimateDiff_Serverless_Runpod).
