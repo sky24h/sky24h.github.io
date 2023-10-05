@@ -11,7 +11,7 @@ layout: default
   </header>
 
   <article>
-    <div class="cv">
+    <div class="cv_pdf">
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3">
@@ -45,7 +45,7 @@ layout: default
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
   <article>
-    <div class="cv">
+    <div class="cv_pdf">
       {% for data in site.data.resume %}
         {% if site.jsonresume_pdf and site.jsonresume_pdf.size > 0 %}
           {% unless site.jsonresume_pdf contains data[0] %}
@@ -61,27 +61,27 @@ layout: default
           <div>
           {% case data[0] %}
             {% when "basics" %}
-              {% include resume/basics.html %}
+              {% include resume_pdf/basics.html %}
             {% when "skills" %}
-              {% include resume/skills.html %}
+              {% include resume_pdf/skills.html %}
             {% when "education" %}
-              {% include resume/education.html %}
+              {% include resume_pdf/education.html %}
             {% when "work" %}
-              {% include resume/work.html %}
+              {% include resume_pdf/work.html %}
             {% when "volunteer" %}
-              {% include resume/volunteer.html %}
+              {% include resume_pdf/volunteer.html %}
             {% when "projects" %}
-              {% include resume/projects.html %}
+              {% include resume_pdf/projects.html %}
             {% when "awards" %}
-              {% include resume/awards.html %}
+              {% include resume_pdf/awards.html %}
             {% when "publications" %}
-              {% include resume/publications.html %}
+              {% include resume_pdf/publications.html %}
             {% when "languages" %}
-              {% include resume/languages.html %}
+              {% include resume_pdf/languages.html %}
             {% when "interests" %}
-              {% include resume/interests.html %}
+              {% include resume_pdf/interests.html %}
             {% when "certificates" %}
-              {% include resume/certificates.html %}
+              {% include resume_pdf/certificates.html %}
             {% else %}
 
           {% endcase %}
