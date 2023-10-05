@@ -55,8 +55,8 @@ layout: default
   <h4>Table of contents</h4>
   <ul class="timeline">
   {% for entry in site.data.resume %}
-    {% if site.jsonresume and site.jsonresume.size > 0 %}
-      {% unless site.jsonresume contains entry[0] %}
+    {% if site.jsonresume_pdf and site.jsonresume_pdf.size > 0 %}
+      {% unless site.jsonresume_pdf contains entry[0] %}
         {% continue %}
       {% endunless %}
     {% endif %}
@@ -70,8 +70,8 @@ layout: default
   <article>
     <div class="cv">
       {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
+        {% if site.jsonresume_pdf and site.jsonresume_pdf.size > 0 %}
+          {% unless site.jsonresume_pdf contains data[0] %}
             {% continue %}
           {% endunless %}
         {% endif %}
@@ -85,8 +85,6 @@ layout: default
           {% case data[0] %}
             {% when "basics" %}
               {% include resume/basics.html %}
-            {% when "skills" %}
-              {% include resume/skills.html %}
             {% when "education" %}
               {% include resume/education.html %}
             {% when "work" %}
@@ -97,6 +95,8 @@ layout: default
               {% include resume/projects.html %}
             {% when "awards" %}
               {% include resume/awards.html %}
+            {% when "skills" %}
+              {% include resume/skills.html %}
             {% when "publications" %}
               {% include resume/publications.html %}
             {% when "languages" %}
