@@ -5,7 +5,6 @@
 
 // Dimensions
 $max-content-width: {{ site.max_width }};
-$max-content-width-pdf: {{ site.max_width_pdf }};
 
 @import
   "variables",
