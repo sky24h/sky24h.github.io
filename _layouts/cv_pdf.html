@@ -11,7 +11,7 @@ layout: default
   </header>
 
   <article>
-    <div class="cv_pdf">
+    <div class="cv">
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3">
@@ -45,7 +45,7 @@ layout: default
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
   <article>
-    <div class="cv_pdf">
+    <div class="cv">
       {% for data in site.data.resume %}
         {% if site.jsonresume_pdf and site.jsonresume_pdf.size > 0 %}
           {% unless site.jsonresume_pdf contains data[0] %}
