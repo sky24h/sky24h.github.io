@@ -73,11 +73,12 @@
   "work": [
     {
       "name": "Crystal-Method Co.Ltd.",
-      "position": "ML Engineer",
+      "position": "Long-term Internship, ML Engineer",
       "type": "Long-term Internship",
       "url": "https://crystal-method.com/",
       "startDate": "2020-09-01",
       "endDate": "2023-12-27",
+      "summary": "Designing, implementing and accelerating ML models for various tasks, such as AI Avatar creation and product inspection.",
       "content": [
         "Talking head video generation from corresponding audio",
         "Human motion transfer from a single image",
@@ -94,9 +95,7 @@
       "url": "https://www.tsukuba.ac.jp/en/campuslife/support-ta-handbook/",
       "startDate": "2019-04-01",
       "endDate": "2019-09-30",
-      "content": [
-        "Design the process and assist the lecturer in the course \"Major Experiments in Human Sensing\""
-      ]
+      "summary": "Design the process and assist the lecturer in the course \"Major Experiments in Human Sensing\""
     }
   ],
   "awards": [

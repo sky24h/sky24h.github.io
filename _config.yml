@@ -435,7 +435,7 @@ jsonresume_pdf:
   - work
   - awards
   - interests
-  - publications
+  # - publications
   # - projects
   # - languages
   # - volunteer
