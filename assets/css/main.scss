@@ -5,6 +5,7 @@
 
 // Dimensions
 $max-content-width: {{ site.max_width }};
+$max-content-width-pdf: {{ site.max_width_pdf }};
 
 @import
   "variables",
@@ -12,5 +13,6 @@ $max-content-width: {{ site.max_width }};
   "layout",
   "base",
   "distill",
-  "cv"
+  "cv",
+  "cv_pdf",
 ;

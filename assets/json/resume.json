@@ -2,7 +2,7 @@
   "basics": {
     "name": "Yuantian Huang",
     "age": 26,
-    "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision, Machine Learning",
+    "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
     "url": "https://sky24h.github.io/",
     "location": {
       "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
@@ -126,13 +126,13 @@
   ],
   "publications": [
     {
-      "name": "Click to see the full list of publications",
+      "name": "https://sky24h.github.io/publications/",
+      "releaseDate": "Publications: ",
       "url": "https://sky24h.github.io/publications/"
-    }
-  ],
-  "projects": [
+    },
     {
-      "name": "Click to see the full list of projects",
+      "name": "https://sky24h.github.io/projects/",
+      "releaseDate": "Projects: ",
       "url": "https://sky24h.github.io/projects/"
     }
   ],
