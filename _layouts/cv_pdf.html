@@ -17,7 +17,7 @@ layout: default
           {% assign entry.title = "Publications & Projects" %}
         {% endif %}
         <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 pt-1 pb-1 pl-3 pr-3">
+        <div class="card mt-1 pt-1 pb-1 pl-3 pr-3">
           <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
           <div>
           {% if entry.type == "list" %}
@@ -59,7 +59,7 @@ layout: default
           {% continue %}
         {% endif %}
         <a class="anchor" id="{{ data[0] }}"></a>
-        <div class="card mt-3 p-3">
+        <div class="card mt-2 pt-1 pb-1 pl-3 pr-3">
           <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
           <div>
           {% case data[0] %}
