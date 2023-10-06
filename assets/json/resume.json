@@ -3,7 +3,7 @@
     "name": "Yuantian Huang",
     "age": 26,
     "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
-    "url": "https://sky24h.github.io/",
+    "publications": "https://sky24h.github.io/publications/",
     "location": {
       "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
       "postalCode": "305-8577",
@@ -78,7 +78,7 @@
       "url": "https://crystal-method.com/",
       "startDate": "2020-09-01",
       "endDate": "2023-12-27",
-      "summary": "Designing, implementing and accelerating ML models for various tasks, such as AI Avatar creation and product inspection.",
+      "summary": "Design, implement and accelerate ML models for AI Avatar creation, product inspection, etc.",
       "content": [
         "Talking head video generation from corresponding audio",
         "Human motion transfer from a single image",
