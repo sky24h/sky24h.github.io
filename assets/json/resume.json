@@ -58,17 +58,9 @@
       "institution": "University of Tsukuba, Japan",
       "url": "https://www.tsukuba.ac.jp/",
       "area": "Computer Science",
-      "studyType": "Master",
-      "startDate": "2019-04-01",
-      "endDate": "2021-03-30"
-    },
-    {
-      "institution": "University of Tsukuba, Japan",
-      "url": "https://www.tsukuba.ac.jp/",
-      "area": "Computer Science",
-      "studyType": "Research Student",
+      "studyType": "Research Student -> Master",
       "startDate": "2017-10-01",
-      "endDate": "2019-03-30"
+      "endDate": "2021-03-30"
     },
     {
       "institution": "Guangzhou University, China",
