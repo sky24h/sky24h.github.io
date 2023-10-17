@@ -1,8 +1,10 @@
-<div class="list-groups">
+<ul class="card-text font-weight-light list-group list-group-flush">
   {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
-    {% for content in publications %}
+  {% for content in publications %}
+  <li class="list-group-item">
     <div class="list-group col-md-12" title="{{ content.level }}">
-    <h5>{{ content }}</h5>
+      <h6>{{ content }}</h6>
     </div>
-    {% endfor %}
-  </div>
+  </li>
+  {% endfor %}
+</ul>
