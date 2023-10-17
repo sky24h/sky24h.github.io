@@ -16,32 +16,32 @@
     {
       "name": "Languages",
       "keywords": [
-        "Chinese  : Native speaker",
+        "Chinese &nbsp;: Native speaker",
         "Japanese : Fluent",
-        "English  : Fluent"
+        "English &nbsp;: Fluent"
       ]
     },
     {
       "name": "Programming Languages",
       "keywords": [
         "Python : ★★★★★",
-        "C++    : ★★★☆☆",
-        "JS     : ★★★☆☆"
+        "C++ &nbsp;&nbsp;&nbsp;: ★★★☆☆",
+        "JS &nbsp;&nbsp;&nbsp;&nbsp;: ★★★☆☆"
       ]
     },
     {
       "name": "Deep Learning Frameworks",
       "keywords": [
-        "PyTorch    : ★★★★★",
+        "PyTorch &nbsp;&nbsp;&nbsp;: ★★★★★",
         "TensorFlow : ★★★☆☆"
       ]
     },
     {
       "name": "Tools & Platforms",
       "keywords": [
-        "Linux  : ★★★★★",
+        "Linux &nbsp;: ★★★★★",
         "Docker : ★★★★☆",
-        "GCP    : ★★★★☆"
+        "GCP &nbsp;&nbsp;&nbsp;: ★★★★☆"
       ]
     }
   ],
