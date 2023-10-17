@@ -127,13 +127,6 @@
       "url": "https://sky24h.github.io/projects/"
     }
   ],
-  "projects": [
-    {
-      "name": "https://sky24h.github.io/projects/",
-      "releaseDate": "Projects: ",
-      "url": "https://sky24h.github.io/projects/"
-    }
-  ],
   "interests": [
     {
       "name": "Video Games",
@@ -160,6 +153,13 @@
         "Roller Skating",
         "Hiking"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "https://sky24h.github.io/projects/",
+      "releaseDate": "Url",
+      "url": "https://sky24h.github.io/projects/"
     }
   ]
 }
