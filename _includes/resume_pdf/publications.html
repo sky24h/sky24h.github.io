@@ -2,7 +2,7 @@
   {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
     {% for content in publications %}
     <div class="list-group col-md-12" title="{{ content.level }}">
-    <h6>{{ content }}</h6>
+    <h5>{{ content }}</h5>
     </div>
     {% endfor %}
   </div>
