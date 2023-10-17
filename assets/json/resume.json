@@ -91,32 +91,32 @@
     {
       "name": "Languages",
       "keywords": [
-        "Chinese:&nbsp;Native speaker",
+        "Chinese&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Native speaker",
         "Japanese&nbsp;:&nbsp;Fluent",
-        "English&nbsp;:&nbsp;Fluent"
+        "English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Fluent"
       ]
     },
     {
       "name": "Programming Languages",
       "keywords": [
         "Python&nbsp;:&nbsp;★★★★★",
-        "C++&nbsp;&nbsp;:&nbsp;★★★☆☆",
-        "JS&nbsp;:&nbsp;★★★☆☆"
+        "C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆",
+        "JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆"
       ]
     },
     {
       "name": "Deep Learning Frameworks",
       "keywords": [
-        "PyTorch:&nbsp;★★★★★",
+        "PyTorch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
         "TensorFlow&nbsp;:&nbsp;★★★☆☆"
       ]
     },
     {
       "name": "Tools & Platforms",
       "keywords": [
-        "Linux:&nbsp;★★★★★",
+        "Linux&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
         "Docker&nbsp;:&nbsp;★★★★☆",
-        "GCP&nbsp;&nbsp;:&nbsp;★★★★☆"
+        "GCP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆"
       ]
     }
   ],
