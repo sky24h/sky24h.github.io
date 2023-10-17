@@ -16,32 +16,32 @@
     {
       "name": "Languages",
       "keywords": [
-        "Chinese &nbsp;&nbsp;: Native speaker",
-        "Japanese : Fluent",
-        "English &nbsp;&nbsp;: Fluent"
+        "Chinese&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Native speaker",
+        "Japanese&nbsp;:&nbsp;Fluent",
+        "English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Fluent"
       ]
     },
     {
       "name": "Programming Languages",
       "keywords": [
-        "Python : ★★★★★",
-        "C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ★★★☆☆",
-        "JS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ★★★☆☆"
+        "Python&nbsp;:&nbsp;★★★★★",
+        "C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆",
+        "JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆"
       ]
     },
     {
       "name": "Deep Learning Frameworks",
       "keywords": [
-        "PyTorch &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ★★★★★",
-        "TensorFlow : ★★★☆☆"
+        "PyTorch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
+        "TensorFlow&nbsp;:&nbsp;★★★☆☆"
       ]
     },
     {
       "name": "Tools & Platforms",
       "keywords": [
-        "Linux &nbsp;&nbsp;: ★★★★★",
-        "Docker : ★★★★☆",
-        "GCP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ★★★★☆"
+        "Linux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
+        "Docker&nbsp;:&nbsp;★★★★☆",
+        "GCP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆"
       ]
     }
   ],
