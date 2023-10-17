@@ -432,9 +432,9 @@ jsonresume_pdf:
   - basics
   - skills
   - education
-  - work
   - awards
   - interests
+  # - work
   # - publications
   # - projects
   # - languages
