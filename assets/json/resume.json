@@ -3,7 +3,6 @@
     "name": "Yuantian Huang",
     "age": 26,
     "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
-    "publications": "https://sky24h.github.io/publications/",
     "url": "https://sky24h.github.io/",
     "location": {
       "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
@@ -12,37 +11,9 @@
       "countryCode": "JP"
     }
   },
-  "skills": [
+  "publications": [
     {
-      "name": "Languages",
-      "keywords": [
-        "Chinese&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Native speaker",
-        "Japanese&nbsp;:&nbsp;Fluent",
-        "English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Fluent"
-      ]
-    },
-    {
-      "name": "Programming Languages",
-      "keywords": [
-        "Python&nbsp;:&nbsp;★★★★★",
-        "C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆",
-        "JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆"
-      ]
-    },
-    {
-      "name": "Deep Learning Frameworks",
-      "keywords": [
-        "PyTorch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
-        "TensorFlow&nbsp;:&nbsp;★★★☆☆"
-      ]
-    },
-    {
-      "name": "Tools & Platforms",
-      "keywords": [
-        "Linux&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
-        "Docker&nbsp;:&nbsp;★★★★☆",
-        "GCP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆"
-      ]
+      "A": "B"
     }
   ],
   "education": [
@@ -115,16 +86,37 @@
       "summary": "A program to provide financial support (living & research allowance) for selected Ph.D students."
     }
   ],
-  "publications": [
+  "skills": [
     {
-      "name": "https://sky24h.github.io/publications/",
-      "releaseDate": "Publications: ",
-      "url": "https://sky24h.github.io/publications/"
+      "name": "Languages",
+      "keywords": [
+        "Chinese&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Native speaker",
+        "Japanese&nbsp;:&nbsp;Fluent",
+        "English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Fluent"
+      ]
     },
     {
-      "name": "https://sky24h.github.io/projects/",
-      "releaseDate": "Projects: ",
-      "url": "https://sky24h.github.io/projects/"
+      "name": "Programming Languages",
+      "keywords": [
+        "Python&nbsp;:&nbsp;★★★★★",
+        "C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆",
+        "JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆"
+      ]
+    },
+    {
+      "name": "Deep Learning Frameworks",
+      "keywords": [
+        "PyTorch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
+        "TensorFlow&nbsp;:&nbsp;★★★☆☆"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": [
+        "Linux&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
+        "Docker&nbsp;:&nbsp;★★★★☆",
+        "GCP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆"
+      ]
     }
   ],
   "interests": [

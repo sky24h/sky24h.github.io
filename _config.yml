@@ -430,13 +430,13 @@ jsonresume:
   # - work
 jsonresume_pdf:
   - basics
-  - skills
+  - publications
   - education
   - awards
+  - skills
   - interests
   - projects
   # - work
-  # - publications
   # - languages
   # - volunteer
   # - certificates
