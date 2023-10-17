@@ -4,6 +4,7 @@
     "age": 26,
     "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
     "publications": "https://sky24h.github.io/publications/",
+    "url": "https://sky24h.github.io/",
     "location": {
       "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
       "postalCode": "305-8577",
@@ -120,6 +121,13 @@
       "releaseDate": "Publications: ",
       "url": "https://sky24h.github.io/publications/"
     },
+    {
+      "name": "https://sky24h.github.io/projects/",
+      "releaseDate": "Projects: ",
+      "url": "https://sky24h.github.io/projects/"
+    }
+  ],
+  "projects": [
     {
       "name": "https://sky24h.github.io/projects/",
       "releaseDate": "Projects: ",

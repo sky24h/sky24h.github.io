@@ -433,10 +433,10 @@ jsonresume_pdf:
   - skills
   - education
   - awards
+  - projects
   - interests
   # - work
   # - publications
-  # - projects
   # - languages
   # - volunteer
   # - certificates
