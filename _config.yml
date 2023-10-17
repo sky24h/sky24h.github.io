@@ -433,8 +433,8 @@ jsonresume_pdf:
   - skills
   - education
   - awards
-  - projects
   - interests
+  - projects
   # - work
   # - publications
   # - languages
