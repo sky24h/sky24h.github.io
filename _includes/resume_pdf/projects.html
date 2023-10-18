@@ -22,8 +22,13 @@
         <tr>
           <td></td>
           <td class="list-group-name">
-            <!-- 1.XX 2.XX -->
-            <b>{{ i_item }}.{{ item.name }}</b>
+            <!-- 1.XX 2.XX, including hyper link -->
+            <b>{{ i_item }}. </b>
+            {% if item.url %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+            {% else %}
+            {{ item.name }}
+            {% endif %}
           </td>
         </tr>
         {% endfor %}

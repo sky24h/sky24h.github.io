@@ -148,15 +148,15 @@
       "type": "Research",
       "contents":[
         {
-          "description": "Online Demo for the paper \"Free-View Expressive Talking Head Video Editing\"",
+          "name": "Online Demo for the paper \"Free-View Expressive Talking Head Video Editing\"",
           "url": "https://huggingface.co/spaces/sky24h/Free-View_Expressive_Talking_Head_Video_Editing"
         },
         {
-          "description": "Online Demo for the paper \"Controllable Multi-domain Semantic Artwork Synthesis\"",
+          "name": "Online Demo for the paper \"Controllable Multi-domain Semantic Artwork Synthesis\"",
           "url": "https://huggingface.co/spaces/sky24h/Controllable_Multi-domain_Semantic_Artwork_Synthesis"
         },
         {
-          "description": "Source code for the paper \"Diffusion-based Semantic Image Synthesis from Sparse Layouts\"",
+          "name": "Source code for the paper \"Diffusion-based Semantic Image Synthesis from Sparse Layouts\"",
           "url": "https://github.com/sky24h/SIS_from_Sparse_Layouts"
         }
       ]
@@ -165,19 +165,19 @@
       "type": "Fun",
       "contents":[
         {
-          "description": "A serverless GPU application that uses AnimateDiff to run a Text-to-Video task",
+          "name": "A serverless GPU application that uses AnimateDiff to run a Text-to-Video task",
           "url": "https://github.com/sky24h/AnimateDiff_Serverless_Runpod"
         },
         {
-          "description": "A serverless GPU application that uses Stable Diffusion XL to run a Text-to-Image task",
+          "name": "A serverless GPU application that uses Stable Diffusion XL to run a Text-to-Image task",
           "url": "https://github.com/sky24h/SDXL_Serverless_Runpod"
         },
         {
-          "description": "One-shot face animation using webcam, capable of running in real time.",
+          "name": "One-shot face animation using webcam, capable of running in real time.",
           "url": "https://github.com/sky24h/Face_Animation_Real_Time"
         },
         {
-          "description": "Simple implementation using ChatGPT (and GPT-4) API, deployed as a Telegram Bot.",
+          "name": "Simple implementation using ChatGPT (and GPT-4) API, deployed as a Telegram Bot.",
           "url": "https://github.com/sky24h/ChatGPT_Telegram_Bot"
         }
       ]
