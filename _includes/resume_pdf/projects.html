@@ -1,7 +1,7 @@
 <div class="list-groups">
+  <h6> URL: <a href="https://sky24h.github.io/projects/">https://sky24h.github.io/projects/</a></h6>
   {% for content in data[1] %}
   <div class="list-group col-md-12" title="{{ content.level }}">
-    <b> Details: https://sky24h.github.io/projects/ </b>
     <table class="table-cv list-group-table">
       <tbody>
         <tr>
@@ -15,7 +15,7 @@
           {% for item in content.items %}
             {% assign i = i | plus:1 %}
           {% endfor %}
-          <td colspan="{{ i }}"><b>● {{ content.type }}</b></td>
+          <td colspan="{{ i }}" class="list-group-category">{● { content.type }}</td>
         </tr>
         {% assign i_item = 0 %}
         {% for item in content.contents %}
@@ -23,9 +23,9 @@
         <tr>
           <td></td>
           <td class="list-group-name">
-            <!-- 1.XX 2.XX -->
+            <!-- 1.XX 2.XX, including hyper link -->
             <b>{{ i_item }}. </b>
-            <b>{{ item.name }}</b>
+            {{ item.name }}
           </td>
         </tr>
         {% endfor %}
