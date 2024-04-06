@@ -36,7 +36,7 @@
       "url": "https://www.tsukuba.ac.jp/",
       "area": "Computer Science",
       "thesisTitle": "Doctoral Thesis: Controllable Visual Content Synthesis with Deep Generative Models",
-      "supervisor": "Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
+      "supervisor": "Supervisors: Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
       "studyType": "PhD",
       "startDate": "2021-04-01",
       "endDate": "2024-03-25"
@@ -46,7 +46,7 @@
       "url": "https://www.tsukuba.ac.jp/",
       "area": "Computer Science",
       "thesisTitle": "Master's Thesis: Controllable Multi-domain Semantic Artwork Synthesis",
-      "supervisor": "Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
+      "supervisor": "Supervisors: Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
       "studyType": "Research Student -> Master",
       "startDate": "2017-10-01",
       "endDate": "2021-03-30"
@@ -63,6 +63,7 @@
   "awards": [
     {
       "title": "Department Chair's Award",
+      "url": "",
       "date": "2024=03=25",
       "awarder": "University of Tsukuba",
       "summary": "Awarded by the Department of Computer Science Chair at the University of Tsukuba for outstanding performance during the Ph.D. program."
