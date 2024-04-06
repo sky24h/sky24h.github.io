@@ -18,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a third-year Ph.D candidate under the supervision of Assoc. Prof. [Satoshi Iizuka](http://iizuka.cs.tsukuba.ac.jp/index_eng.html) and Prof. [Kazuhiro Fukui](http://www.cvlab.cs.tsukuba.ac.jp/~kfukui/english/indexE.html) at the University of Tsukuba.
+I am currently working as a research engineer at [CyberAgent AI Lab](https://cyberagent.ai/ailab/).
+
+Previously, I got my Ph.D. in 2024 under the supervision of Assoc. Prof. [Satoshi Iizuka](http://iizuka.cs.tsukuba.ac.jp/index_eng.html) and Prof. [Kazuhiro Fukui](http://www.cvlab.cs.tsukuba.ac.jp/~kfukui/english/indexE.html) at the University of Tsukuba.
 
 My research interests include image editing and generation, computer graphics, and computer vision.
 
-E-mail: huang_yuantian (at) cvlab.cs.tsukuba.ac.jp
+E-mail: huang_yuantian (at) cyberagent.co.jp

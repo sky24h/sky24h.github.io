@@ -2,9 +2,8 @@
   "basics": {
     "name": "Yuantian Huang",
     "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
-    "supervisor": "Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
     "url": "https://sky24h.github.io/",
-    "email": "huang_yuantian@cvlab.cs.tsukuba.ac.jp",
+    "email": "huang_yuantian@cyberagent.co.jp",
     "location": {
       "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
       "postalCode": "305-8577",
@@ -17,21 +16,37 @@
     "<b>● International Conference (Peer-reviewed)</b><br>1. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Diffusion-based Semantic Image Synthesis from Sparse Layouts'', <em>Computer Graphics International (CGI) 2023</em>, 2023. (accepted) <a href='https://sky24h.github.io/websites/cgi2023_sis-from-sparse-layouts/data/CGI2023_Diffusion-based_Semantic_Image_Synthesis_from_Sparse_LayoutsCameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/cgi2023_sis-from-sparse-layouts'>Website</a><br>2. T. Okada, <u>Y. Huang</u>, G. Hao, and S. Iizuka, K. Fukui, ''Low-Level Feature Aggregation Networks for Disease Severity Estimation of Coffee Leaves'', <em>18th International Conference on Machine Vision and Applications (MVA)</em>, 2023. <a href='https://ieeexplore.ieee.org/document/10215626'>Website</a><br>3. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Free-View Expressive Talking Head Video Editing'', <em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP, </em><b>h5-index: 123</b>, <b>top 3% paper</b><em>)</em>, 2023. <a href='https://sky24h.github.io/websites/icassp2023_free-view_video-editing/data/Free_view_Expressive_Talking_Head_Video_Editing_ICASSP_2023_CameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/icassp2023_free-view_video-editing'>Website</a>",
     "<b>● International Journal (Peer-reviewed)</b><br>1. <u>Y. Huang</u>, S. Iizuka, E. Simo-Serra, and K. Fukui, ''Controllable Multi-domain Semantic Artwork Synthesis'', <em>Computational Visual Media</em> (<b>IF: 6.9</b>), 2023. (accepted) <a href='https://sky24h.github.io/websites/cvmj2023_controllable-artwork-synthesis/data/Controllable_Multi-domain_Semantic_Artwork_Synthesis_CVMJ_CameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/cvmj2023_controllable-artwork-synthesis'>Website</a>"
   ],
+  "work": [
+    {
+      "name": "CyberAgent AI Lab",
+      "position": "Research Engineer",
+      "type": "Full-time",
+      "url": "https://cyberagent.ai/ailab/",
+      "startDate": "2024-04-01",
+      "endDate": "now",
+      "summary": "R&D on image editing and generation, computer graphics, and computer vision.",
+      "content": [
+        ""
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "University of Tsukuba, Japan",
       "url": "https://www.tsukuba.ac.jp/",
       "area": "Computer Science",
       "thesisTitle": "Doctoral Thesis: Controllable Visual Content Synthesis with Deep Generative Models",
+      "supervisor": "Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
       "studyType": "PhD",
       "startDate": "2021-04-01",
-      "endDate": "now"
+      "endDate": "2024-03-25"
     },
     {
       "institution": "University of Tsukuba, Japan",
       "url": "https://www.tsukuba.ac.jp/",
       "area": "Computer Science",
       "thesisTitle": "Master's Thesis: Controllable Multi-domain Semantic Artwork Synthesis",
+      "supervisor": "Assoc. Prof. Satoshi Iizuka, Prof. Kazuhiro Fukui",
       "studyType": "Research Student -> Master",
       "startDate": "2017-10-01",
       "endDate": "2021-03-30"
@@ -45,35 +60,13 @@
       "endDate": "2017-06-30"
     }
   ],
-  "work": [
-    {
-      "name": "Crystal-Method Co.Ltd.",
-      "position": "Long-term Internship, ML Engineer",
-      "type": "Long-term Internship",
-      "url": "https://crystal-method.com/",
-      "startDate": "2020-09-01",
-      "endDate": "2023-12-27",
-      "summary": "Design, implement and accelerate ML models for AI Avatar creation, product inspection, etc.",
-      "content": [
-        "Talking head video generation from corresponding audio",
-        "Human motion transfer from a single image",
-        "AI Avatar creation from images or videos",
-        "Accelerating the training and inference of pytorch models on GPU and CPU",
-        "Architecture design and implementation of a human-interactive AI system (Talking with AI Avatar in Zoom)",
-        "Abnormal detection of industrial products"
-      ]
-    },
-    {
-      "name": "University of Tsukuba",
-      "position": "Teaching Assistant",
-      "type": "Teaching Assistant",
-      "url": "https://www.tsukuba.ac.jp/en/campuslife/support-ta-handbook/",
-      "startDate": "2019-04-01",
-      "endDate": "2019-09-30",
-      "summary": "Design the process and assist the lecturer in the course \"Major Experiments in Human Sensing\""
-    }
-  ],
   "awards": [
+    {
+      "title": "Department Chair's Award",
+      "date": "2024=03=25",
+      "awarder": "University of Tsukuba",
+      "summary": "Awarded by the Department of Computer Science Chair at the University of Tsukuba for outstanding performance during the Ph.D. program."
+    },
     {
       "title": "Top 3% Paper Recognition",
       "url": "https://sky24h.github.io/websites/icassp2023_free-view_video-editing/data/Top3_Huang_ICASSP.pdf",
