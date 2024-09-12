@@ -2,15 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Personal Page | Yuantian Huang # the website title (if blank, full name will be used instead)
 first_name: Yuantian
 middle_name:
 last_name: Huang
 email: huang_yuantian@cyberagent.co.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal page of Yuantian Huang, a researcher in Computer Graphics and Image Editing.
+  Personal page of Yuantian Huang.
 footer_text: >
-keywords: huang, yuantian, cvlab, computer graphics, image editing, university of tsukuba, cyberagent ai lab, 黄, 源天  # add your own keywords or leave empty
+keywords: huang yuantian, cvlab, computer graphics, image editing, university of tsukuba, cyberagent ai lab, 黄 源天, graphics  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

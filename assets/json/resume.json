@@ -3,17 +3,17 @@
     "name": "Yuantian Huang",
     "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
     "url": "https://sky24h.github.io/",
-    "email": "huang_yuantian@cyberagent.co.jp",
+    "email": "huang_yuantian[AT]cyberagent.co.jp",
     "location": {
-      "address": "1-1-1 Tennodai, Tsukuba, Ibaraki, Japan",
-      "postalCode": "305-8577",
-      "city": "Tsukuba",
+      "address": "19F-23F Shibuya Scramble Square 2-24-12 Shibuya Shibuya-Ku",
+      "postalCode": "150-6121",
+      "city": "Tokyo",
       "countryCode": "JP"
     }
   },
   "publications": [
     "<b>● Domestic Conference</b><br>1. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Free-View Expressive Talking Head Video Editing'', <em>Visual Computing 2023</em>, 2023. (<b>Invited talk</b>) <br>2. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Diffusion-based Semantic Image Synthesis from Sparse Layouts'', <em>26th Meeting on Image Recognition and Understanding</em>, 2023. (Non-peer-reviewed, poster) <br>3. <u>Y. Huang</u>, S. Iizuka, E. Simo-Serra, and K. Fukui, ''High-quality Multi-domain Artwork Generation from Semantic Layouts'', <em>The 24th Meeting on Image Recognition and Understanding</em>, 2021. (Peer-reviewed, short oral) <br>4. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Controllable Artwork Synthesis via Two-stage Adversarial Networks'', <em>The 23th Meeting on Image Recognition and Understanding</em>, 2020. (Peer-reviewed, short oral)",
-    "<b>● International Conference (Peer-reviewed)</b><br>1. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Diffusion-based Semantic Image Synthesis from Sparse Layouts'', <em>Computer Graphics International (CGI) 2023</em>, 2023. <a href='https://sky24h.github.io/websites/cgi2023_sis-from-sparse-layouts/data/CGI2023_Diffusion-based_Semantic_Image_Synthesis_from_Sparse_LayoutsCameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/cgi2023_sis-from-sparse-layouts'>Website</a><br>2. T. Okada, <u>Y. Huang</u>, G. Hao, and S. Iizuka, K. Fukui, ''Low-Level Feature Aggregation Networks for Disease Severity Estimation of Coffee Leaves'', <em>18th International Conference on Machine Vision and Applications (MVA)</em>, 2023. <a href='https://ieeexplore.ieee.org/document/10215626'>Website</a><br>3. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Free-View Expressive Talking Head Video Editing'', <em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP, </em><b> h5-index: 123</b>, <b>top 3% paper</b><em>)</em>, 2023. <a href='https://sky24h.github.io/websites/icassp2023_free-view_video-editing/data/Free_view_Expressive_Talking_Head_Video_Editing_ICASSP_2023_CameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/icassp2023_free-view_video-editing'>Website</a>",
+    "<b>● International Conference (Peer-reviewed)</b><br>1. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Training-Free Zero-Shot Semantic Segmentation with LLM Refinement'', <em>The British Machine Vision Conference (BMVC) 2024</em>, 2024. <a href='https://sky24h.github.io/websites/bmvc2024_training-free-semseg-with-LLM/data/Training-Free_Zero-Shot_Semantic_Segmentation_with_LLM_Refinement.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/bmvc2024_training-free-semseg-with-LLM'>Website</a><br> 2. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Diffusion-based Semantic Image Synthesis from Sparse Layouts'', <em>Computer Graphics International (CGI) 2023</em>, 2023. <a href='https://sky24h.github.io/websites/cgi2023_sis-from-sparse-layouts/data/CGI2023_Diffusion-based_Semantic_Image_Synthesis_from_Sparse_LayoutsCameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/cgi2023_sis-from-sparse-layouts'>Website</a><br>3. T. Okada, <u>Y. Huang</u>, G. Hao, and S. Iizuka, K. Fukui, ''Low-Level Feature Aggregation Networks for Disease Severity Estimation of Coffee Leaves'', <em>18th International Conference on Machine Vision and Applications (MVA)</em>, 2023. <a href='https://ieeexplore.ieee.org/document/10215626'>Website</a><br>4. <u>Y. Huang</u>, S. Iizuka, and K. Fukui, ''Free-View Expressive Talking Head Video Editing'', <em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP, </em><b> h5-index: 123</b>, <b>top 3% paper</b><em>)</em>, 2023. <a href='https://sky24h.github.io/websites/icassp2023_free-view_video-editing/data/Free_view_Expressive_Talking_Head_Video_Editing_ICASSP_2023_CameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/icassp2023_free-view_video-editing'>Website</a>",
     "<b>● International Journal (Peer-reviewed)</b><br>1. <u>Y. Huang</u>, S. Iizuka, E. Simo-Serra, and K. Fukui, ''Controllable Multi-domain Semantic Artwork Synthesis'', <em>Computational Visual Media</em> (<b>IF: 6.9</b>), 2024.  <a href='https://sky24h.github.io/websites/cvmj2023_controllable-artwork-synthesis/data/Controllable_Multi-domain_Semantic_Artwork_Synthesis_CVMJ_CameraReady.pdf'>PDF</a>, <a href='https://sky24h.github.io/websites/cvmj2023_controllable-artwork-synthesis'>Website</a>"
   ],
   "work": [
@@ -63,7 +63,7 @@
   "awards": [
     {
       "title": "Department Chair's Award",
-      "url": "",
+      "url": "../img/Certificate_of_Commendation.jpg",
       "date": "2024=03=25",
       "awarder": "University of Tsukuba",
       "summary": "Awarded by the Department of Computer Science Chair at the University of Tsukuba for outstanding performance during the Ph.D. program."
@@ -96,8 +96,7 @@
       "name": "Programming Languages",
       "keywords": [
         "Python&nbsp;:&nbsp;★★★★★",
-        "C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆",
-        "JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆"
+        "C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★☆☆"
       ]
     },
     {
@@ -150,8 +149,8 @@
           "url": "https://huggingface.co/spaces/sky24h/Controllable_Multi-domain_Semantic_Artwork_Synthesis"
         },
         {
-          "name": "Source code for the paper \"Diffusion-based Semantic Image Synthesis from Sparse Layouts\"",
-          "url": "https://github.com/sky24h/SIS_from_Sparse_Layouts"
+          "name": "Online Demo for the paper \"Training-Free Zero-Shot Semantic Segmentation with LLM Refinement\"",
+          "url": "https://huggingface.co/spaces/sky24h/Training-Free_Zero-Shot_Semantic_Segmentation_with_LLM_Refinement"
         }
       ]
     },
