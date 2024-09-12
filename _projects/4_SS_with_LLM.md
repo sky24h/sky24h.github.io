@@ -2,7 +2,7 @@
 layout: page
 title: Semantic Segmentation with LLM
 description: Training-Free Zero-Shot Semantic Segmentation with LLM Refinement
-img: assets/img/publication_preview/CGI2023_teaser.gif
+img: assets/img/publication_preview/BMVC2024_teaser.jpg
 importance: 3
 category: research
 related_publications: Huang2024SemSegLLM
