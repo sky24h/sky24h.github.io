@@ -9,4 +9,4 @@ related_publications: Huang2023Sparse
 redirect: https://github.com/sky24h/SIS_from_Sparse_Layouts
 ---
 
-If you are not redirected, please click [here]("https://github.com/sky24h/SIS_from_Sparse_Layouts).
+If you are not redirected, please click [here](https://github.com/sky24h/SIS_from_Sparse_Layouts).
