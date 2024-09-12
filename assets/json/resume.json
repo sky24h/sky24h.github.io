@@ -3,7 +3,7 @@
     "name": "Yuantian Huang",
     "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
     "url": "https://sky24h.github.io/",
-    "email": "huang_yuantian[AT]cyberagent.co.jp",
+    "email": "huang_yuantian (at) cyberagent.co.jp",
     "location": {
       "address": "19F-23F Shibuya Scramble Square 2-24-12 Shibuya Shibuya-Ku",
       "postalCode": "150-6121",
@@ -63,7 +63,7 @@
   "awards": [
     {
       "title": "Department Chair's Award",
-      "url": "../img/Certificate_of_Commendation.jpg",
+      "url": "../assets/img/Certificate_of_Commendation.jpg",
       "date": "2024=03=25",
       "awarder": "University of Tsukuba",
       "summary": "Awarded by the Department of Computer Science Chair at the University of Tsukuba for outstanding performance during the Ph.D. program."
