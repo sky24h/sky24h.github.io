@@ -149,6 +149,17 @@ blockquote {
   }
 }
 
+/* Phones only: the portrait is 800x948, so at full width it filled the whole
+   first screen before any text. Shrink and centre it instead. */
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    width: 55%;
+    max-width: 190px;
+    margin: 0 auto 1.25rem !important;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -321,6 +332,21 @@ blockquote {
 }
 
 // Social (bottom)
+
+/* Hugging Face has no Font Awesome glyph; this makes the inline SVG track the
+   surrounding icons' size and hover colour. */
+.hf-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  color: var(--global-text-color);
+  transition-property: all 0.2s ease-in-out;
+}
+
+a:hover > .hf-icon {
+  color: var(--global-theme-color);
+}
 
 .social {
   text-align: center;
@@ -535,8 +561,19 @@ footer.sticky-bottom {
   }
 
   .card {
+    figure {
+      margin-bottom: 0;
+    }
+
     img {
       width: 100%;
+      /* Teasers range from 1.50 to 2.17 in aspect ratio, so card tops used to sit
+         at different heights. `contain` levels them without cropping - several
+         teasers are side-by-side comparisons or pipeline diagrams that lose their
+         meaning if the edges are cut off. */
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background-color: var(--global-card-bg-color);
     }
   }
 

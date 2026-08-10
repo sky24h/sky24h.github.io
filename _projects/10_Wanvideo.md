@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Text-to-Video Serverless Application
+title: Wan Text-to-Video Serverless Application
 description: A serverless application that uses Wan to run a Text-to-Video task on RunPod.
 img: assets/img/project_preview/example_result_WanVideo.gif
 importance: 1

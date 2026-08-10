@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Text-to-Video Serverless Application
+title: AnimateDiff Text-to-Video Serverless Application
 description: A serverless application that uses AnimateDiff to run a Text-to-Video task on RunPod.
 img: assets/img/project_preview/example_result_AnimateDiff.gif
 importance: 1

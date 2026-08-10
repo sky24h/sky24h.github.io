@@ -37,6 +37,11 @@
             {%- if site.linkedin_username -%}
             <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             {% endif %}
+            {%- if site.huggingface_username -%}
+            {%- comment -%} Font Awesome ships no Hugging Face glyph, so this is an
+              inline mark sized in em to sit on the same baseline as the icons. {%- endcomment -%}
+            <a href="https://huggingface.co/{{ site.huggingface_username }}" title="Hugging Face"><svg class="hf-icon" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="15" r="10.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12.2" cy="13" r="1.5"/><circle cx="19.8" cy="13" r="1.5"/><path d="M11.4 18.2c1.1 1.9 2.7 2.9 4.6 2.9s3.5-1 4.6-2.9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M6.6 19.4c-1.6.5-2.6 1.7-2.2 2.9.4 1.2 1.9 1.6 3.4 1.1l2.1-.8z" /><path d="M25.4 19.4c1.6.5 2.6 1.7 2.2 2.9-.4 1.2-1.9 1.6-3.4 1.1l-2.1-.8z" /></svg></a>
+            {% endif %}
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}

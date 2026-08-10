@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-22 10:00:00+09:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+A co-author paper accepted to **ICLR 2025** as an **Oral**.

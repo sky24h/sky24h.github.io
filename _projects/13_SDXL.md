@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Text-to-Image Serverless Application
+title: SDXL Text-to-Image Serverless Application
 description: A serverless application that uses Stable Diffusion XL to run a Text-to-Image task on RunPod.
 img: assets/img/project_preview/example_result_SDXL.jpg
 importance: 2
