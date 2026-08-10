@@ -27,9 +27,7 @@ jobs:
         ruby-version: '3.2.2'
         bundler-cache: true
     - name: Install ImageMagick 🖼️
-      # jekyll-imagemagick shells out to `convert`, which the runner image no
-      # longer ships. Without it every responsive .webp silently fails to build
-      # ("convert: not found", exit 127) and each <picture> 404s at runtime.
+      # jekyll-imagemagick shells out to `convert`, absent from the runner image.
       run: |
         sudo apt-get update
         sudo apt-get install -y imagemagick

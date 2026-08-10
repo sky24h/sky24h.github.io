@@ -373,10 +373,9 @@ enable_progressbar        : true   # enables a horizontal progress bar linked to
 # Library versions
 # -----------------------------------------------------------------------------
 
-# Majors are pinned on purpose:
-#   Bootstrap stays on 4.x  - 5 renames data-toggle/ml-*/float-* used all over _includes
-#   jQuery stays on 3.x     - Bootstrap 4 does not support jQuery 4
-#   Font Awesome stays on 6 - 7 renames icon styles
+# Majors pinned: Bootstrap 5 renames the utilities used in _includes, Bootstrap 4
+# does not support jQuery 4, Font Awesome 7 renames icon styles, MDB 5 drops both
+# jQuery and Bootstrap 4.
 academicons:
   version: "1.9.5"
   integrity: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
@@ -394,9 +393,13 @@ imagesloaded:
 jquery:
   version: "3.7.1"
   integrity: "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-# Only fetched when enable_math is on. Stays on 3.x - MathJax 4 changed the API.
 mathjax:
   version: "3.2.2"
+mdb:
+  version: "4.20.0"
+  integrity:
+    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
