@@ -31,6 +31,13 @@
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    {%- if page.page_id -%}
+      {%- for p in site.pages -%}
+        {%- if p.page_id == page.page_id and p.lang -%}
+    <link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | absolute_url }}">
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
 
     <script>
       /* <picture> renders nothing when a matching <source> fails, so drop this

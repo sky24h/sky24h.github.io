@@ -1,0 +1,12 @@
+{%- assign cur_lang = page.lang | default: 'en' -%}
+<li class="nav-item lang-switcher">
+  {%- for l in site.data.i18n.langs -%}
+    {%- assign target = l.root -%}
+    {%- if page.page_id -%}
+      {%- for p in site.pages -%}
+        {%- if p.page_id == page.page_id and p.lang == l.code -%}{%- assign target = p.url -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    <a class="nav-link{% if l.code == cur_lang %} active{% endif %}" href="{{ target | relative_url }}" hreflang="{{ l.code }}">{{ l.label }}</a>
+  {%- endfor -%}
+</li>

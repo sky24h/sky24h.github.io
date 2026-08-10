@@ -1,0 +1,51 @@
+# UI strings per language. Page bodies live in _pages/about.<lang>.md.
+# `langs` order drives the language switcher; `root` is where a language
+# falls back when a page has no translated sibling.
+langs:
+  - code: en
+    label: EN
+    root: /
+  - code: ja
+    label: 日本語
+    root: /ja/
+  - code: zh
+    label: 中文
+    root: /zh/
+
+en:
+  # name_html goes in the <h1> / navbar; name is the plain-text <title>.
+  # Footer and machine-readable metadata stay English on every page.
+  name: Yuantian Huang
+  name_html: <span class="font-weight-bold">Yuantian</span> Huang
+  nav:
+    about: about
+    publications: publications
+    projects: projects
+    cv: cv
+  news: news
+  latest_posts: latest posts
+  selected_papers: selected publications
+
+ja:
+  name: 黄 源天
+  name_html: 黄&nbsp;<span class="font-weight-bold">源天</span>
+  nav:
+    about: プロフィール
+    publications: 論文
+    projects: プロジェクト
+    cv: 履歴書
+  news: お知らせ
+  latest_posts: 最近の投稿
+  selected_papers: 主要論文
+
+zh:
+  name: 黄 源天
+  name_html: 黄&nbsp;<span class="font-weight-bold">源天</span>
+  nav:
+    about: 关于
+    publications: 论文
+    projects: 项目
+    cv: 简历
+  news: 动态
+  latest_posts: 最新文章
+  selected_papers: 代表论文

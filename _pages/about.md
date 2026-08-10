@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+page_id: about
+lang: en
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:

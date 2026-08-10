@@ -2,6 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
+page_id: projects
 description:
 nav: true
 nav_order: 2

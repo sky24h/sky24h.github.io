@@ -17,9 +17,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {%- assign lang = page.lang | default: 'en' -%}
+    {%- assign t = site.data.i18n[lang] -%}
     <title>
     {%- if site.title == "blank" -%}
-        {%- capture title -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
+        {%- capture title -%}{{ t.name }}{%- endcapture -%}
     {%- else -%}
         {%- capture title -%}{{ site.title }}{%- endcapture -%}
     {%- endif -%}
@@ -58,7 +60,7 @@
     {% if page.og_image or site.og_image -%}
     <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
     {%- endif %}
-    <meta property="og:locale" content="{{ site.lang }}" />
+    <meta property="og:locale" content="{{ lang }}" />
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary" />
