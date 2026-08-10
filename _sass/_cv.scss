@@ -42,6 +42,13 @@ p.location {
   white-space: nowrap;
 }
 
+/* NOTE: not scoped to the CV page - this overrides `.container` site-wide,
+   beating the `max_width: 800px` from _config.yml. Left as-is because
+   narrowing it would reflow every other page. */
+.container {
+  max-width: 1000px;
+}
+
 i.iconlocation {
   color: var(--global-theme-color);
   font-size: 0.8rem;
@@ -107,7 +114,7 @@ div.list-group {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 0.125rem;
+  margin-bottom: 2rem;
 }
 
 td.list-group-category {
