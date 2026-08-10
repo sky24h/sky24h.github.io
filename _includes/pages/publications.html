@@ -1,12 +1,14 @@
+{%- assign lang = page.lang | default: 'en' -%}
+{%- assign t = site.data.i18n[lang] -%}
 <div class="publications">
 
-<h4>Journal</h4>
+<h4>{{ t.publications.journal }}</h4>
 {% bibliography -f {{ site.scholar.bibliography_journal }} %}
 
-<h4>Conference</h4>
+<h4>{{ t.publications.conference }}</h4>
 {% bibliography -f {{ site.scholar.bibliography_conference }} %}
 
-<h4>Domestic</h4>
+<h4>{{ t.publications.domestic }}</h4>
 {% bibliography -f {{ site.scholar.bibliography_domestic }} %}
 
 </div>

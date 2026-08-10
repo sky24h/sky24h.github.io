@@ -20,6 +20,10 @@ en:
   news: news
   latest_posts: latest posts
   selected_papers: selected publications
+  publications:
+    journal: Journal
+    conference: Conference
+    domestic: Domestic
 
 ja:
   name: 黄 源天
@@ -27,6 +31,10 @@ ja:
   news: お知らせ
   latest_posts: 最近の投稿
   selected_papers: 主要論文
+  publications:
+    journal: 国際ジャーナル
+    conference: 国際学会
+    domestic: 国内学会
 
 zh:
   name: 黄 源天
@@ -34,3 +42,7 @@ zh:
   news: 动态
   latest_posts: 最新文章
   selected_papers: 代表论文
+  publications:
+    journal: 国际期刊
+    conference: 国际会议
+    domestic: 日本国内会议
