@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 en: "A co-author paper accepted to **TMLR**."
 ja: "共著論文が **TMLR** に採択されました。"
-zh: "一篇共同作者论文被 **TMLR** 接收。"
+zh: "一篇合著论文被 **TMLR** 接收。"
 ---
