@@ -7,8 +7,12 @@
           {%- assign lang = page.lang | default: 'en' -%}
           {%- assign t = site.data.i18n[lang] -%}
           {%- assign home_url = '/' -%}
+          {%- assign home_title = 'about' -%}
           {%- for p in site.pages -%}
-            {%- if p.page_id == 'about' and p.lang == lang -%}{%- assign home_url = p.url -%}{%- endif -%}
+            {%- if p.page_id == 'about' and p.lang == lang -%}
+              {%- assign home_url = p.url -%}
+              {%- assign home_title = p.title -%}
+            {%- endif -%}
           {%- endfor -%}
           {% if page.page_id != 'about' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
@@ -37,7 +41,7 @@
 
               <!-- About -->
               <li class="nav-item {% if page.page_id == 'about' %}active{% endif %}">
-                <a class="nav-link" href="{{ home_url | relative_url }}">{{ t.nav.about }}
+                <a class="nav-link" href="{{ home_url | relative_url }}">{{ home_title }}
                   {%- if page.page_id == 'about' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -57,11 +61,11 @@
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
-              {%- if p.nav and p.autogen == nil -%}
-              {%- assign p_label = t.nav[p.page_id] | default: p.title -%}
+              {%- assign p_lang = p.lang | default: 'en' -%}
+              {%- if p.nav and p.autogen == nil and p_lang == lang -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p_label }}
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -78,7 +82,7 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p_label }}
+                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}

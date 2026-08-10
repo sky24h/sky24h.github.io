@@ -1,9 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: プロジェクト
+permalink: /ja/projects/
 page_id: projects
-lang: en
+lang: ja
+translated: false # body is the English page; only the UI chrome is localised
 description:
 nav: true
 nav_order: 2

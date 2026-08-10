@@ -30,10 +30,26 @@
     <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    {%- if page.page_id -%}
+    {%- comment -%} /ja/cv/ etc. serve the English body under a localised UI, so they
+      point canonical at the English original instead of declaring a translation. {%- endcomment -%}
+    {%- assign canonical_url = page.url -%}
+    {%- if page.page_id and page.translated == false -%}
       {%- for p in site.pages -%}
-        {%- if p.page_id == page.page_id and p.lang -%}
+        {%- if p.page_id == page.page_id and p.translated != false -%}{%- assign canonical_url = p.url -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    <link rel="canonical" href="{{ canonical_url | replace:'index.html','' | absolute_url }}">
+    {%- assign alt_count = 0 -%}
+    {%- if page.page_id and page.translated != false -%}
+      {%- for p in site.pages -%}
+        {%- if p.page_id == page.page_id and p.lang and p.translated != false -%}
+          {%- assign alt_count = alt_count | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- if alt_count > 1 -%}
+      {%- for p in site.pages -%}
+        {%- if p.page_id == page.page_id and p.lang and p.translated != false -%}
     <link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | absolute_url }}">
         {%- endif -%}
       {%- endfor -%}
