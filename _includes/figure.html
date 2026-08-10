@@ -1,9 +1,24 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign img_ext = include.path | split: "." | last | downcase | prepend: "." -%}
+
+{%- comment -%}
+  Only emit <source> for the formats jekyll-imagemagick is actually configured
+  to convert (site.imagemagick.input_formats). Without this guard a GIF gets a
+  srcset pointing at "foo.gif-1400.webp", which is never generated, and the
+  browser renders nothing at all for it.
+{%- endcomment -%}
+{%- assign responsive = false -%}
+{%- if site.imagemagick.enabled and site.imagemagick.input_formats contains img_ext -%}
+  {%- assign responsive = true -%}
+{%- endif -%}
+
+{%- comment -%} Above-the-fold callers pass loading="eager" so LCP is not delayed. {%- endcomment -%}
+{%- assign img_loading = include.loading | default: "lazy" -%}
 
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
+    {% if responsive %}
     {% for i in site.imagemagick.widths -%}
       <source
         class="responsive-img-srcset"
@@ -26,7 +41,9 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %}
       {% if include.title %}title="{{ include.title }}"{% endif %}
       {% if include.zoomable %}data-zoomable{% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      loading="{{ img_loading }}"
+      decoding="async"
+      onerror="alfolioPictureFallback(this)"
     />
   </picture>
 
