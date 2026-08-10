@@ -10,7 +10,8 @@ table.table-cv {
   background-color: transparent !important;
 }
 
-a.btncv {
+a.btncv,
+button.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
   border-radius: 0.125rem;
@@ -27,10 +28,108 @@ a.btncv {
   white-space: nowrap;
 }
 
-a.btncv:hover {
+a.btncv:hover,
+button.btncv:hover {
   color: var(--global-theme-color) !important;
   border-color: var(--global-theme-color) !important;
   text-decoration: none !important;
+}
+
+/* "PDF" button in the CV page header: hands off to the browser's own
+   print / save-as-PDF dialog, so the output never goes stale. */
+button.btn-cv-pdf {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+/*****************************
+ * Print styles: what the browser's "Print / Save as PDF" produces
+ *****************************/
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 10mm;
+  }
+
+  /* Bootstrap's col-md-* widths sit inside a `min-width: 768px` query, but the
+     print viewport is the paper width minus the print margins (~717px on A4,
+     and ultimately whatever the reader picks in the print dialog). Below that
+     breakpoint every row collapses to a single stacked column: Skills and
+     Interests turn into one tall list and the Work / Education / Awards date
+     badges jump above their entries instead of sitting in the left column.
+     Re-declare the widths so print matches the web page on any paper size. */
+  .col-md-2  { flex: 0 0 16.666667% !important; max-width: 16.666667% !important; }
+  .col-md-3  { flex: 0 0 25% !important;        max-width: 25% !important; }
+  .col-md-6  { flex: 0 0 50% !important;        max-width: 50% !important; }
+  .col-md-10 { flex: 0 0 83.333333% !important; max-width: 83.333333% !important; }
+  .col-md-12 { flex: 0 0 100% !important;       max-width: 100% !important; }
+  .mt-md-0   { margin-top: 0 !important; }
+
+  html,
+  body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Without this a reader on the dark theme prints light-grey text on white */
+  html[data-theme='dark'] {
+    --global-bg-color: #fff;
+    --global-text-color: #000;
+    --global-text-color-light: #666;
+    --global-divider-color: rgba(0, 0, 0, 0.1);
+    --global-card-bg-color: #fff;
+  }
+
+  /* Site chrome, and the page title: Basics already carries the name.
+     Hiding the title also hides the PDF button, which lives inside it. */
+  header nav#navbar,
+  progress#progress,
+  footer,
+  .toggle-container,
+  h1.post-title {
+    display: none !important;
+  }
+
+  /* body reserves room for the fixed navbar and footer; neither is printed.
+     .container keeps its horizontal padding, which cancels the -15px margins
+     Bootstrap rows use. */
+  body,
+  body.fixed-top-nav {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .container,
+  .post {
+    max-width: 100% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Flatten the cards. No break-inside: avoid — the sections are taller than a
+     page, so it would only leave half-empty pages. */
+  .cv .card {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 0 0.6rem 0 !important;
+  }
+
+  .cv .card-title {
+    border-bottom: 1px solid #000;
+    margin-bottom: 0.4rem;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  div.list-group {
+    margin-bottom: 0.8rem !important;
+  }
 }
 
 /*****************************
