@@ -59,7 +59,7 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">{{ t.selected_papers }}</a></h2>
+            <h2><a href="{% include lurl.html page_id='publications' lang=lang %}" style="color: inherit;">{{ t.selected_papers }}</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 

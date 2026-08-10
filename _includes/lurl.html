@@ -1,0 +1,17 @@
+{%- comment -%}
+  Resolves a page_id to its URL in include.lang, falling back to the English
+  page. Use this for every cross-page link instead of hardcoding a path, or the
+  link silently drops the reader back into English.
+    {% include lurl.html page_id='publications' lang=lang %}
+{%- endcomment -%}
+{%- assign _lurl = '' -%}
+{%- assign _lurl_en = '' -%}
+{%- for p in site.pages -%}
+  {%- if p.page_id == include.page_id -%}
+    {%- assign _p_lang = p.lang | default: 'en' -%}
+    {%- if _p_lang == include.lang -%}{%- assign _lurl = p.url -%}{%- endif -%}
+    {%- if _p_lang == 'en' -%}{%- assign _lurl_en = p.url -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _lurl = _lurl | default: _lurl_en -%}
+{{- _lurl | relative_url -}}
