@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Yuantian Huang",
-    "research interest": "Image Editing and Generation, Computer Graphics, Computer Vision",
+    "research interest": "Image & Video Generation/Editing, Computer Graphics, Computer Vision",
     "url": "https://sky24h.github.io/",
     "email": "huang_yuantian (at) cyberagent.co.jp",
     "location": {
@@ -24,7 +24,7 @@
       "type": "Full-time",
       "startDate": "2024-04-01",
       "endDate": "now",
-      "summary": "R&D on image editing and generation, computer graphics, and computer vision.",
+      "summary": "R&D on Image & Video Generation/Editing, Computer Graphics, Computer Vision.",
       "content": [
         ""
       ]
@@ -109,9 +109,11 @@
     {
       "name": "Tools & Platforms",
       "keywords": [
-        "Linux&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
-        "Docker&nbsp;:&nbsp;★★★★☆",
-        "GCP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆"
+        "Linux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★★",
+        "Docker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆",
+        "GCP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆",
+        "Claude Code&nbsp;:&nbsp;★★★★★",
+        "Codex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;★★★★☆"
       ]
     }
   ],
