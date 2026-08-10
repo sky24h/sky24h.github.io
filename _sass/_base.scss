@@ -333,6 +333,18 @@ blockquote {
 
 // Social (bottom)
 
+/* Awards and paper recognitions. Gold rather than the theme colour, which is
+   already the link/hover colour and would read as clickable. Two values because
+   a gold legible on white is too dark to read on the dark theme. */
+.award {
+  color: var(--global-award-color);
+  font-weight: 600;
+
+  i {
+    font-size: 0.85em;
+  }
+}
+
 /* Hugging Face has no Font Awesome glyph; this makes the inline SVG track the
    surrounding icons' size and hover colour. */
 .hf-icon {

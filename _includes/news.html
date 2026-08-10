@@ -14,7 +14,15 @@
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
                     {% if item.inline -%}
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                      {%- comment -%} Each item carries en/ja/zh fields; fall back to
+                        English, then to the markdown body for items without them. {%- endcomment -%}
+                      {%- assign lang = page.lang | default: 'en' -%}
+                      {%- assign item_text = item[lang] | default: item.en -%}
+                      {%- if item_text -%}
+                        {{ item_text | markdownify | remove: '<p>' | remove: '</p>' | emojify }}
+                      {%- else -%}
+                        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                      {%- endif -%}
                     {%- else -%}
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {%- endif %}

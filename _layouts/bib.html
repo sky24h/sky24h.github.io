@@ -133,9 +133,11 @@
       <div class="periodical">
         {{ periodical | strip }}
       </div>
-      <div class="periodical">
-        {{ entry.note | strip }}
+      {%- if entry.note and entry.note != "" %}
+      <div class="award">
+        <i class="fas fa-award"></i> {{ entry.note | strip }}
       </div>
+      {%- endif %}
 
         <!-- Links/Buttons -->
         <div class="links">
@@ -238,5 +240,3 @@
         {%- endif %}
       </div>
     </div>
-
-
