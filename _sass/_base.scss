@@ -1034,3 +1034,36 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+/*******************************************************************************
+ * Salvaged from MDBootstrap
+ *
+ * mdbootstrap 4.20.0 was 277KB of CSS + 288KB of JS loaded on every page, and
+ * these five rules were the only part of it this site ever used. Values copied
+ * verbatim from mdb.min.css (minus the -webkit- prefixes, which no supported
+ * browser still needs). See _includes/head.html for the removed <link>.
+ ******************************************************************************/
+
+.z-depth-0 {
+  box-shadow: none !important;
+}
+
+.z-depth-1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.hoverable {
+  box-shadow: none;
+  transition: all 0.55s ease-in-out;
+}
+
+.hoverable:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.55s ease-in-out;
+}
+
+/* Only ever shows outside .cv - inside it, .cv .card .list-group-item .badge
+   overrides the background with the theme colour. */
+.danger-color-dark {
+  background-color: #cc0000 !important;
+}

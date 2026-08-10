@@ -8,7 +8,8 @@ $(document).ready(function() {
     $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass('open');
   });
-  $('a').removeClass('waves-effect waves-light');
+  // (dropped a `$('a').removeClass('waves-effect waves-light')` sweep here - it
+  //  only stripped MDBootstrap's ripple classes, and MDB is no longer loaded)
 
   // bootstrap-toc
   if($('#toc-sidebar').length){
@@ -46,4 +47,3 @@ $(document).ready(function() {
     }
   });
 });
-

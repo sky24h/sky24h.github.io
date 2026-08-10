@@ -361,7 +361,7 @@ enable_cronitor_analytics : false  # enables cronitor RUM analytics
 enable_google_verification: true  # enables google site verification
 enable_bing_verification  : false  # enables bing site verification
 enable_masonry            : true   # enables automatic project cards arrangement
-enable_math               : true   # enables math typesetting (uses MathJax)
+enable_math               : false  # enables math typesetting (uses MathJax, 809KB) - no content uses math; flip back on if you add any
 enable_tooltips           : false  # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode           : true   # enables switching between light/dark modes
 enable_navbar_social      : false  # enables displaying social links in the navbar on the about page
@@ -373,35 +373,36 @@ enable_progressbar        : true   # enables a horizontal progress bar linked to
 # Library versions
 # -----------------------------------------------------------------------------
 
+# Majors are pinned on purpose:
+#   Bootstrap stays on 4.x  - 5 renames data-toggle/ml-*/float-* used all over _includes
+#   jQuery stays on 3.x     - Bootstrap 4 does not support jQuery 4
+#   Font Awesome stays on 6 - 7 renames icon styles
 academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+  version: "1.9.5"
+  integrity: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
 bootstrap:
-  version: "4.6.1"
+  version: "4.6.2"
   integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
-bootstrap-table:
-  version: "1.21.4"
+    css: "sha256-+IZRbz1B6ee9mUx/ejmonK+ulIP5A5bLDd6v6NHqXnI="
+    js: "sha256-GRJrh0oydT1CwS36bBeJK/2TggpaUQC6GzTaTQdZm0k="
 fontawesome:
-  version: "6.4.0"
-  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
+  version: "6.7.2"
+  integrity: "sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo="
+imagesloaded:
+  version: "4.1.4"
+  integrity: "sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q="
 jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  version: "3.7.1"
+  integrity: "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+# Only fetched when enable_math is on. Stays on 3.x - MathJax 4 changed the API.
 mathjax:
-  version: "3.2.0"
+  version: "3.2.2"
 masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
-mdb:
-  version: "4.20.0"
-  integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 medium_zoom:
-  version: "1.0.8"
-  integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
+  version: "1.1.0"
+  integrity: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
